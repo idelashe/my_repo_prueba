@@ -5,12 +5,19 @@ function cube() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 3);
 }
+ 
+ function seno() {
+ var num = document.getElementById("n1");
+ num.value = sin(num);
+}
+ 
 </script>
 </head>
 <body>
 Number:
 <input type="text" id="n1">
  <button onclick="cube()"> x^3 </button>
+ <button onclick="seno()"> sine </button>
 </body>
 <h1>Calculadora de Iñaki de las Heras</h1>
 </html>
